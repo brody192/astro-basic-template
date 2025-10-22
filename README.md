@@ -1,19 +1,10 @@
----
-title: Astro
-description: The basic Astro template
-tags:
-  - Node
-  - Astro 5
-  - TypeScript
----
+# Astro Starter Kit: Basics
 
-### Astro
+```sh
+npm create astro@latest -- --template basics
+```
 
-This Project was created with - `npm create astro@latest -- --template basics`
-
-To get more help on the Astro CLI use go check out the [Astro CLI Overview and Command Reference](https://docs.astro.build/en/reference/cli-reference/) page.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/template/Ic0JBh)
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ## 🚀 Project Structure
 
@@ -23,15 +14,19 @@ Inside of your Astro project, you'll see the following folders and files:
 /
 ├── public/
 │   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [their guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
 ## 🧞 Commands
 
